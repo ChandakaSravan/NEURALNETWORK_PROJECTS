@@ -1,0 +1,28 @@
+# Chandaka, Sravan
+# 1002_059_166
+# 2023_03_20
+# Assignment_02_02
+
+
+C:\Users\chand\Projects>py.test --verbose tests_v3.py
+=================================================================== test session starts ===================================================================
+platform win32 -- Python 3.10.10, pytest-7.2.1, pluggy-1.0.0 -- C:\Users\chand\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\chand\Projects
+plugins: anyio-3.6.2
+collected 12 items
+
+tests_v3.py::test_random_weight_init PASSED                                                                                                          [  8%]
+tests_v3.py::test_weight_update_mse PASSED                                                                                                           [ 16%]
+tests_v3.py::test_weight_update_cross_entropy PASSED                                                                                                 [ 25%]
+tests_v3.py::test_weight_update_svm PASSED                                                                                                           [ 33%]
+tests_v3.py::test_assign_weights_by_value PASSED                                                                                                     [ 41%]
+tests_v3.py::test_error_output_dimensions PASSED                                                                                                     [ 50%]
+tests_v3.py::test_error_vals_mse PASSED                                                                                                              [ 58%]
+tests_v3.py::test_error_vals_cross_entropy PASSED                                                                                                    [ 66%]
+tests_v3.py::test_initial_validation_output PASSED                                                                                                   [ 75%]
+tests_v3.py::test_many_layers PASSED                                                                                                                 [ 83%]
+tests_v3.py::test_batch_sizes PASSED                                                                                                                 [ 91%]
+tests_v3.py::test_set_weights PASSED                                                                                                                 [100%]
+
+=================================================================== 12 passed in 4.55s ====================================================================
